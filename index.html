@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body class="w-75 mx-auto">
-    <header>
+  <body>
+    <div class="scroll-tracker"></div>
+    <header class="w-75 mx-auto">
       <div
         class="d-flex container justify-content-between mt-4 align-items-center"
       >
@@ -34,138 +35,144 @@
         </ul>
       </div>
     </header>
-    <section>
-      <div
-        class="d-flex container justify-content-between align-items-center hero-secction"
-      >
+    <main class="w-75 mx-auto">
+      <section>
+        <div
+          class="d-flex container justify-content-evenly align-items-center hero-secction"
+        >
+          <div>
+            <h2>
+              Discover <br />
+              And Collect <br />
+              Rare NFTs
+            </h2>
+            <p class="mt-3">
+              The most secure marketplace for buying <br />
+              and selling unique crypto assets.
+            </p>
+            <div class="mt-5">
+              <button type="button" class="btn btn-light btn-lg rounded-pill">
+                Buy NFTs
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-info btn-lg rounded-pill ms-4"
+              >
+                Sell NFTs
+              </button>
+            </div>
+          </div>
+          <img class="image" src="./photos/screen.png" />
+        </div>
+      </section>
+      <section>
         <div>
-          <h2>
-            Discover <br />
-            And Collect <br />
-            Rare NFTs
-          </h2>
-          <p class="mt-3">
-            The most secure marketplace for buying <br />
-            and selling unique crypto assets.
-          </p>
-          <div class="mt-5">
-            <button type="button" class="btn btn-light btn-lg rounded-pill">
-              Buy NFTs
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-info btn-lg rounded-pill"
-            >
-              Sell NFTs
-            </button>
+          <div
+            class="d-flex container justify-content-evenly align-items-center mt-4 mx-auto"
+          >
+            <img class="image" src="./photos/notif.png" />
+            <article>
+              <span>analytics</span>
+              <h3 class="mt-3">
+                built-in analytics <br />
+                to track your nfts
+              </h3>
+              <p class="mt-3">
+                Use our built-in analytics dashboard to pull valuable<br />
+                insights and monitor the value of your Krypto portfolio<br />
+                over time.
+              </p>
+              <button type="button" class="btn btn-light rounded-pill mt-4">
+                view our pricing
+              </button>
+            </article>
+          </div>
+          <div
+            class="d-flex container justify-content-evenly align-items-center mt-5"
+          >
+            <article>
+              <span>get our app</span>
+              <h3 class="mt-3">
+                browse nfts from <br />
+                your smartphone
+              </h3>
+              <p class="mt-3">
+                Our Krypto app is the easiest way to keep track of your <br />
+                assets when you’re on the go.
+              </p>
+              <button type="button" class="btn btn-light rounded-pill mt-5">
+                Download on ios
+              </button>
+            </article>
+            <img class="image" src="./photos/mobile.png" />
           </div>
         </div>
-        <img src="./photos/screen.png" />
-      </div>
-    </section>
-    <section>
-      <div>
-        <div
-          class="d-flex container justify-content-between align-items-center"
+      </section>
+      <section>
+        <span class="d-flex justify-content-center mb-2 mt-5"
+          >testimonials</span
         >
-          <img src="./photos/notif.png" />
-          <article>
-            <span>analytics</span>
-            <h3 class="mt-3">
-              built-in analytics <br />
-              to track your nfts
-            </h3>
-            <p class="mt-3">
-              Use our built-in analytics dashboard to pull valuable<br />
-              insights and monitor the value of your Krypto portfolio<br />
-              over time.
-            </p>
-            <button type="button" class="btn btn-light rounded-pill mt-4">
-              view our pricing
-            </button>
-          </article>
-        </div>
-        <div
-          class="d-flex container justify-content-between align-items-center mt-5"
-        >
-          <article>
-            <span>get our app</span>
-            <h3 class="mt-3">
-              browse nfts from <br />
-              your smartphone
-            </h3>
-            <p class="mt-3">
-              Our Krypto app is the easiest way to keep track of your <br />
-              assets when you’re on the go.
-            </p>
-            <button type="button" class="btn btn-light rounded-pill mt-5">
-              Download on ios
-            </button>
-          </article>
-          <img src="./photos/mobile.png" />
-        </div>
-      </div>
-    </section>
-    <section>
-      <span class="d-flex justify-content-center mb-2 mt-5">testimonials</span>
-      <h3 class="text-center">
-        read what others <br />
-        have to say
-      </h3>
-      <div class="container grid">
-        <div class="row">
-          <div
-            class="col d-flex flex-column container container-pt position-relative text-center"
-          >
-            <img src="./photos/person-1.png" />
-            <h5>Olivia Cole</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
-              quos? Illo quaerat neque enim ea aut velit magni illum nihil
-              laborum, fuga harum odit nesciunt impedit, saepe placeat delectus
-              perferendis?
-            </p>
-          </div>
-          <div
-            class="col d-flex flex-column container container-pt position-relative text-center"
-          >
-            <img src="./photos/person-2.png" />
-            <h5>Olivia Cole</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
-              quos? Illo quaerat neque enim ea aut velit magni illum nihil
-              laborum, fuga harum odit nesciunt impedit, saepe placeat delectus
-              perferendis?
-            </p>
-          </div>
-          <div
-            class="col d-flex flex-column container container-pt position-relative text-center"
-          >
-            <img src="./photos/person-3.png" />
-            <h5>Olivia Cole</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
-              quos? Illo quaerat neque enim ea aut velit magni illum nihil
-              laborum, fuga harum odit nesciunt impedit, saepe placeat delectus
-              perferendis?
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="container d-flex flex-column gradient justify-content-center mt-5"
-      >
-        <span class="d-flex justify-content-center">are you ready?</span>
-        <h3 class="text-center mt-3">
-          be a part of the <br />
-          next big thing
+        <h3 class="text-center">
+          read what others <br />
+          have to say
         </h3>
-        <button type="button" class="btn btn-primary rounded-pill mx-auto">
-          get started
-        </button>
-      </div>
-    </section>
-    <footer>
+        <div class="container grid">
+          <div class="row">
+            <div
+              class="col d-flex flex-column container container-pt position-relative text-center"
+            >
+              <img src="./photos/person-1.png" />
+              <h5>Olivia Cole</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
+                quos? Illo quaerat neque enim ea aut velit magni illum nihil
+                laborum, fuga harum odit nesciunt impedit, saepe placeat
+                delectus perferendis?
+              </p>
+            </div>
+            <div
+              id="grid2"
+              class="col d-flex flex-column container container-pt position-relative text-center"
+            >
+              <img src="./photos/person-2.png" />
+              <h5>Olivia Cole</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
+                quos? Illo quaerat neque enim ea aut velit magni illum nihil
+                laborum, fuga harum odit nesciunt impedit, saepe placeat
+                delectus perferendis?
+              </p>
+            </div>
+            <div
+              id="grid3"
+              class="col d-flex flex-column container container-pt position-relative text-center"
+            >
+              <img src="./photos/person-3.png" />
+              <h5>Olivia Cole</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic,
+                quos? Illo quaerat neque enim ea aut velit magni illum nihil
+                laborum, fuga harum odit nesciunt impedit, saepe placeat
+                delectus perferendis?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container d-flex flex-column gradient justify-content-center mt-5"
+        >
+          <span class="d-flex justify-content-center">are you ready?</span>
+          <h3 class="text-center mt-3">
+            be a part of the <br />
+            next big thing
+          </h3>
+          <button type="button" class="btn btn-primary rounded-pill mx-auto">
+            get started
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="w-75 mx-auto">
       <div class="container d-flex justify-content-between">
         <h5 class="text-uppercase">krypto</h5>
         <div>
@@ -216,5 +223,6 @@
       </div>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js" defer></script>
   </body>
 </html>
