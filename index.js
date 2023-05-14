@@ -28,7 +28,7 @@ window.addEventListener("scroll", updateScrollTracker);
 
 function handleResize() {
   const images = document.querySelectorAll(".image");
-  //#grid2 nejde přidat class nevím proč :/
+  //#grid2 nejde přidat classa nevím proč :/
   const grid2 = document.querySelector("#grid2");
   const grid3 = document.querySelector("#grid3");
   const width = window.innerWidth;
